@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html{
+    font-size: 1em;
+}
+
+body{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    /* background-image: url("images/pattern-background-mobile.svg"); */
+}
+
+.card{
+    width: 400px;
+    height: 550px;
+    border: 1px white solid;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero{
+    width: 100%;
+    height: 250%;
+    overflow: scroll;
+    border: 1px rgb(56,42,225) solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+a{
+    font-size: 16px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: hsl(224, 56%, 58%);
+    font-weight: 700;;
+}
+
+.attribution{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    align-content: flex-end;
+}
+
+h2, h3{
+    margin-bottom: 0;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+#para-one{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: rgb(113,127,166);
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.plan {
+    display: flex;
+    border: 1px hsl(225, 100%, 98%) solid;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 7%;
+    margin-bottom: 20px;
+}
+
+#music{
+    padding-left: 20px;
+}
+
+.payment p{
+    margin-top: 0;
+    color: rgb(113,127,166);
+}
+
+.payment{
+    padding-right: 70px;
+}
+
+button{
+    width: 350px;
+    height: 400px;
+}
+
+#btn-one{
+    background-color: hsl(245, 75%, 52%);
+    border: 1px hsl(245, 75%, 52%) solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2em;
+    box-shadow: 5px 1px 10px hsl(225, 100%, 98%);
+}
+
+#btn-one:hover{
+    background-color: hsl(224, 56%, 58%);
+    cursor: pointer;
+}
+
+#btn-two{
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+#btn-two:hover{
+    cursor: pointer;
+}

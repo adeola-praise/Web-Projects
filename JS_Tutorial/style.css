@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+  /* DO NOT TOUCH THIS FILE!!!  */
+  /* THIS CODE WILL MAKE SENSE ONCE WE COVER FLEXBOX!  */
+  #board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+
+  .square:nth-of-type(even){
+    background-color: black;
+  }
+
+  .square:nth-of-type(odd){
+    background-color: red;
+  }
+
+  p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .card {
+    width: 210px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  img {
+    width: 200px;
+    border: 5px rgb(236, 183, 191) solid;
+    border-radius: 50%;
+  }
